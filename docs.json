@@ -1,0 +1,43 @@
+{
+  "$schema": "https://mintlify.com/docs.json",
+  "theme": "mint",
+  "name": "Chip Night Planning Notes",
+  "colors": {
+    "primary": "#1F7A4D",
+    "light": "#3FA872",
+    "dark": "#145C38"
+  },
+  "favicon": "/favicon.svg",
+  "navigation": {
+    "groups": [
+      {
+        "group": "Chip night planning",
+        "pages": ["index", "counting-a-chip-set", "stack-planning"]
+      }
+    ]
+  },
+  "navbar": {
+    "primary": {
+      "type": "button",
+      "label": "PokerChip.live",
+      "href": "https://pokerchip.live/"
+    }
+  },
+  "seo": {
+    "indexing": "navigable",
+    "metatags": {
+      "robots": "index,follow"
+    }
+  },
+  "footer": {
+    "links": [
+      {
+        "header": "Tools",
+        "items": [
+          { "label": "Chip values", "href": "https://pokerchip.live/poker-chip-values" },
+          { "label": "Chip calculator", "href": "https://pokerchip.live/poker-chip-calculator" }
+        ]
+      }
+    ]
+  }
+}
